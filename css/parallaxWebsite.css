@@ -1,0 +1,89 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: montserrat, sans-serif;
+  color: #666;
+  line-height: 1.8em;
+}
+
+
+h2 {
+  font-family: raleway;
+}
+.pimg1 {
+  background-image: url("../img/adeolu-eletu-13086-unsplash.jpg");
+  min-height: 80%;
+  min-width: 100%;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+.pimg2 {
+  background-image: url("../img/ales-nesetril-734016-unsplash.jpg");
+  min-height: 400px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+.pimg3 {
+  background-image: url("../img/computer-1245714.jpg");
+  min-height: 400px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+.pimg1, .pimg2, .pimg3 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*
+    fixed = parallax, scroll = normal;
+  */
+  background-attachment: fixed;
+}
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark{
+  background-color: #2e2834;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+
+/* @media (max-width: 568px;) {
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
+} */
